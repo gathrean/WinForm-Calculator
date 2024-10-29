@@ -111,38 +111,16 @@
             btn5.UseVisualStyleBackColor = true;
             btn5.Click += btn5_Click;
             // 
-            // btn0
+            // btn6
             // 
-            btn0.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn0.Location = new Point(696, 419);
-            btn0.Name = "btn0";
-            btn0.Size = new Size(134, 120);
-            btn0.TabIndex = 10;
-            btn0.Text = "0";
-            btn0.UseVisualStyleBackColor = true;
-            btn0.Click += btn0_Click;
-            // 
-            // btn9
-            // 
-            btn9.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn9.Location = new Point(532, 419);
-            btn9.Name = "btn9";
-            btn9.Size = new Size(134, 120);
-            btn9.TabIndex = 9;
-            btn9.Text = "9";
-            btn9.UseVisualStyleBackColor = true;
-            btn9.Click += btn9_Click;
-            // 
-            // btn8
-            // 
-            btn8.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn8.Location = new Point(366, 419);
-            btn8.Name = "btn8";
-            btn8.Size = new Size(134, 120);
-            btn8.TabIndex = 8;
-            btn8.Text = "8";
-            btn8.UseVisualStyleBackColor = true;
-            btn8.Click += btn8_Click;
+            btn6.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn6.Location = new Point(37, 419);
+            btn6.Name = "btn6";
+            btn6.Size = new Size(134, 120);
+            btn6.TabIndex = 6;
+            btn6.Text = "6";
+            btn6.UseVisualStyleBackColor = true;
+            btn6.Click += btn6_Click;
             // 
             // btn7
             // 
@@ -155,49 +133,49 @@
             btn7.UseVisualStyleBackColor = true;
             btn7.Click += btn7_Click;
             // 
-            // btn6
+            // btn8
             // 
-            btn6.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn6.Location = new Point(37, 419);
-            btn6.Name = "btn6";
-            btn6.Size = new Size(134, 120);
-            btn6.TabIndex = 6;
-            btn6.Text = "6";
-            btn6.UseVisualStyleBackColor = true;
-            btn6.Click += btn6_Click;
+            btn8.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn8.Location = new Point(366, 419);
+            btn8.Name = "btn8";
+            btn8.Size = new Size(134, 120);
+            btn8.TabIndex = 8;
+            btn8.Text = "8";
+            btn8.UseVisualStyleBackColor = true;
+            btn8.Click += btn8_Click;
             // 
-            // btnClear
+            // btn9
             // 
-            btnClear.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnClear.Location = new Point(696, 597);
-            btnClear.Name = "btnClear";
-            btnClear.Size = new Size(134, 120);
-            btnClear.TabIndex = 15;
-            btnClear.Text = "Clear";
-            btnClear.UseVisualStyleBackColor = true;
-            btnClear.Click += btnClear_Click;
+            btn9.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn9.Location = new Point(532, 419);
+            btn9.Name = "btn9";
+            btn9.Size = new Size(134, 120);
+            btn9.TabIndex = 9;
+            btn9.Text = "9";
+            btn9.UseVisualStyleBackColor = true;
+            btn9.Click += btn9_Click;
             // 
-            // btnDiv
+            // btn0
             // 
-            btnDiv.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDiv.Location = new Point(532, 597);
-            btnDiv.Name = "btnDiv";
-            btnDiv.Size = new Size(134, 120);
-            btnDiv.TabIndex = 14;
-            btnDiv.Text = "/";
-            btnDiv.UseVisualStyleBackColor = true;
-            btnDiv.Click += btnDiv_Click;
+            btn0.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn0.Location = new Point(696, 419);
+            btn0.Name = "btn0";
+            btn0.Size = new Size(134, 120);
+            btn0.TabIndex = 10;
+            btn0.Text = "0";
+            btn0.UseVisualStyleBackColor = true;
+            btn0.Click += btn0_Click;
             // 
-            // btnMultiply
+            // btnPlus
             // 
-            btnMultiply.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnMultiply.Location = new Point(366, 597);
-            btnMultiply.Name = "btnMultiply";
-            btnMultiply.Size = new Size(134, 120);
-            btnMultiply.TabIndex = 13;
-            btnMultiply.Text = "*";
-            btnMultiply.UseVisualStyleBackColor = true;
-            btnMultiply.Click += btnMultiply_Click;
+            btnPlus.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPlus.Location = new Point(37, 597);
+            btnPlus.Name = "btnPlus";
+            btnPlus.Size = new Size(134, 120);
+            btnPlus.TabIndex = 11;
+            btnPlus.Text = "+";
+            btnPlus.UseVisualStyleBackColor = true;
+            btnPlus.Click += btnPlus_Click;
             // 
             // btnMinus
             // 
@@ -210,16 +188,38 @@
             btnMinus.UseVisualStyleBackColor = true;
             btnMinus.Click += btnMinus_Click;
             // 
-            // btnPlus
+            // btnMultiply
             // 
-            btnPlus.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnPlus.Location = new Point(37, 597);
-            btnPlus.Name = "btnPlus";
-            btnPlus.Size = new Size(134, 120);
-            btnPlus.TabIndex = 11;
-            btnPlus.Text = "+";
-            btnPlus.UseVisualStyleBackColor = true;
-            btnPlus.Click += btnPlus_Click;
+            btnMultiply.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnMultiply.Location = new Point(366, 597);
+            btnMultiply.Name = "btnMultiply";
+            btnMultiply.Size = new Size(134, 120);
+            btnMultiply.TabIndex = 13;
+            btnMultiply.Text = "*";
+            btnMultiply.UseVisualStyleBackColor = true;
+            btnMultiply.Click += btnMultiply_Click;
+            // 
+            // btnDiv
+            // 
+            btnDiv.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDiv.Location = new Point(532, 597);
+            btnDiv.Name = "btnDiv";
+            btnDiv.Size = new Size(134, 120);
+            btnDiv.TabIndex = 14;
+            btnDiv.Text = "/";
+            btnDiv.UseVisualStyleBackColor = true;
+            btnDiv.Click += btnDiv_Click;
+            // 
+            // btnClear
+            // 
+            btnClear.Font = new Font("Microsoft Sans Serif", 13.875F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnClear.Location = new Point(696, 597);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(134, 120);
+            btnClear.TabIndex = 15;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // btnEql
             // 
@@ -269,11 +269,12 @@
         private Button btn3;
         private Button btn4;
         private Button btn5;
-        private Button btn0;
-        private Button btn9;
-        private Button btn8;
-        private Button btn7;
         private Button btn6;
+        private Button btn7;
+        private Button btn8;
+        private Button btn9;
+        private Button btn0;
+        private Button btn60;
         private Button btnClear;
         private Button btnDiv;
         private Button btnMultiply;
